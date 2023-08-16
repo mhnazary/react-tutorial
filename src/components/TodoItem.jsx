@@ -1,7 +1,5 @@
-
-export default function TodoItem({message}) {
-    return <li>
-        <input type="checkbox"  />
-        {message}
-    </li>    
+function TodoItem({itemProp}) {
+  return <li>{itemProp.title}</li>
 }
+
+export default TodoItem;

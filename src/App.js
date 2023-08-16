@@ -1,14 +1,10 @@
 
 import './App.css';
-import TodoItem from "./components/TodoItem"
+import TodoApp from './components/TodoApp';
 
 function App() {
   return (
-    <div className="App">
-     <TodoItem message="ali" />
-     <TodoItem message="khan ali" />
-     <TodoItem message="Mohammad mahdi" />
-    </div>
+    <TodoApp />
   );
 }
 
